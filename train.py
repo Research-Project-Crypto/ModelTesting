@@ -215,9 +215,12 @@ for i_episode in range(M_episodes):
             gc.collect(generation=2)
             print(gc.garbage)
 
+        observation_tensors = torch.tensor(last_observation).float().view(1, env._frame_size, feature_size).to(device)
+        last_action_tensors = F.one_hot(torch.tensor(last_action), n_actions).view(1,1,-1).float().to(device)
+
         action, hidden = dqn.predict(
-            torch.tensor(last_observation).float().view(1, env._frame_size, feature_size).to(device),
-            F.one_hot(torch.tensor(last_action), n_actions).view(1,1,-1).float().to(device),
+            observation_tensors,
+            last_action_tensors,
             hidden = hidden,
             epsilon = eps
         )
