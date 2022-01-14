@@ -13,9 +13,6 @@ import gc
 
 gc.enable()
 
-# from pympler.tracker import SummaryTracker
-# tracker = SummaryTracker()
-
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 
@@ -29,14 +26,8 @@ class DQN(nn.Module):
     def forward(self, observation, action, hidden = None):
         lstm_input = observation
         if hidden is not None:
-            # print('hidden not None')
-            # print(observation.shape)
-            # print(action.shape)
             lstm_out, hidden_out = self.lstm_1(lstm_input, hidden)
         else:
-            # print('hidden None')
-            # print(observation.shape)
-            # print(action.shape)
             lstm_out, hidden_out = self.lstm_1(lstm_input)
         q_values = self.output_layer(lstm_out)
         return q_values, hidden_out
@@ -84,7 +75,6 @@ class ExpBuffer():
             #print(start_idx)
             last_action, last_observation, action, reward, observation, done = zip(*self.storage[start_idx:start_idx+seq_len])
             
-            # print(len(last_observation[0]))
             last_actions.append(list(last_action))
             last_observations.append(last_observation)
             actions.append(list(action))
@@ -191,8 +181,6 @@ print("feature_size:", feature_size)
 print("n_actions:", n_actions)
 
 pp = ProgressPlot(plot_names = ['Return', 'Exploration'], line_names = ['Value'])
-# dqn = DQN(n_actions, state_size, embedding_size).cuda()
-# adrqn_target = DQN(n_actions, state_size, embedding_size).cuda()
 dqn = DQN(n_actions, feature_size).to(device)
 dqn_target = DQN(n_actions, feature_size).to(device)
 dqn_target.load_state_dict(dqn.state_dict())
@@ -211,12 +199,10 @@ for i_episode in range(M_episodes):
     for t in count():
         if t % 10000 == 0:
             print(t)
-            # tracker.print_diff()
             gc.collect(generation=2)
-            print(gc.garbage)
 
-        observation_tensors = torch.tensor(last_observation).float().view(1, env._frame_size, feature_size).to(device)
-        last_action_tensors = F.one_hot(torch.tensor(last_action), n_actions).view(1,1,-1).float().to(device)
+        observation_tensors = torch.tensor(last_observation).view(1, env._frame_size, feature_size).to(device)
+        last_action_tensors = F.one_hot(torch.tensor(last_action), n_actions).view(1,1,-1).to(device)
 
         action, hidden = dqn.predict(
             observation_tensors,
@@ -237,8 +223,6 @@ for i_episode in range(M_episodes):
         last_action = action
         last_observation = observation
 
-        
-    
         #Updating Networks
         if i_episode > EXPLORE:
                 # eps = eps_end + (eps_start - eps_end) * math.exp((-1*(i_episode-EXPLORE))/eps_decay)
