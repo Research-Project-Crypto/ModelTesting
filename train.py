@@ -17,7 +17,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 
 class DQN(nn.Module):
-    def __init__(self, n_actions, feature_size, hidden_size=128):
+    def __init__(self, n_actions, feature_size, hidden_size=64):
         super(DQN, self).__init__()
         self.n_actions = n_actions
         self.lstm_1 = nn.LSTM(input_size = feature_size, hidden_size = hidden_size, num_layers = 1, dropout = 0.1)
@@ -35,7 +35,7 @@ class DQN(nn.Module):
     def predict(self, observation, last_action, epsilon, hidden = None):
         q_values, hidden_out = self.forward(observation, last_action, hidden)
         if np.random.uniform() > epsilon:
-            action = torch.argmax(q_values[0][0][-1]).item()
+            action = torch.argmax(q_values[0][0][-1]).detach().item()
         else:
             action = np.random.randint(self.n_actions)
         return action, hidden_out
@@ -82,7 +82,7 @@ class ExpBuffer():
             observations.append(list(observation))
             dones.append(list(done))
            
-        return torch.tensor(last_actions).to(device), torch.tensor(last_observations, dtype = torch.float32).to(device), torch.tensor(actions).to(device), torch.tensor(rewards).float().to(device) , torch.tensor(observations, dtype = torch.float32).to(device), torch.tensor(dones).to(device)
+        return torch.tensor(last_actions).detach().to(device), torch.tensor(last_observations, dtype = torch.float32).detach().to(device), torch.tensor(actions).detach().to(device), torch.tensor(rewards).float().detach().to(device) , torch.tensor(observations, dtype = torch.float32).detach().to(device), torch.tensor(dones).detach().to(device)
 
 # actions [0,1,2]
 # 0 = do nothing
@@ -180,7 +180,7 @@ EXPLORE = 0
 print("feature_size:", feature_size)
 print("n_actions:", n_actions)
 
-pp = ProgressPlot(plot_names = ['Return', 'Exploration'], line_names = ['Value'])
+# pp = ProgressPlot(plot_names = ['Return', 'Exploration'], line_names = ['Value'])
 dqn = DQN(n_actions, feature_size).to(device)
 dqn_target = DQN(n_actions, feature_size).to(device)
 dqn_target.load_state_dict(dqn.state_dict())
@@ -196,13 +196,12 @@ for i_episode in range(M_episodes):
     
     last_observation = env.reset()
     
-    for t in count():
-        if t % 10000 == 0:
+    for t in range(1000):
+        if t % 100 == 0:
             print(t)
-            gc.collect(generation=2)
 
-        observation_tensors = torch.tensor(last_observation).view(1, env._frame_size, feature_size).to(device)
-        last_action_tensors = F.one_hot(torch.tensor(last_action), n_actions).view(1,1,-1).to(device)
+        observation_tensors = torch.tensor(last_observation).view(1, env._frame_size, feature_size).detach().to(device)
+        last_action_tensors = F.one_hot(torch.tensor(last_action), n_actions).view(1,1,-1).detach().to(device)
 
         action, hidden = dqn.predict(
             observation_tensors,
@@ -243,12 +242,12 @@ for i_episode in range(M_episodes):
         if done:
             break
 
-    pp.update([[current_return],[eps]])
+    # pp.update([[current_return],[eps]])
     dqn_target.load_state_dict(dqn.state_dict())
 
-env.close()
+# env.close()
 
-torch.save(dqn.state_dict(), "models/")
+torch.save(dqn.state_dict(), "models/model1")
 
 
 
