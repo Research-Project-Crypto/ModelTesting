@@ -34,12 +34,11 @@ def read_bin_full_file(file):
     return data
 
 start_time = time.time()
-data = read_bin_full_file('./data/output/PERLUSDT.bin')
+data = read_bin_full_file('/home/joren/Coding/cryptodata/Normalized_labelled/AAVEUSDT.bin')
 
 if True:
     for candle in data:
-        print(candle)
-
-        time.sleep(0.3)
+        print(candle[-1])
+        # time.sleep(0.1)
 
 print(f"Difference: {(time.time() - start_time) * 1000}ms")
