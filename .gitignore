@@ -2,4 +2,5 @@
 .venv/
 venv/
 data/
-models/
+#models/
+logs/
