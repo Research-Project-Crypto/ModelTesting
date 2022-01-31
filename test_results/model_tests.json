@@ -2,51 +2,58 @@
     "results": [
         {
             "file": "/home/joren/Coding/cryptodata/Normalized_labelled/AAVEUSDT.bin",
-            "model": "models/model_medium_5",
-            "skipcounter": 1,
-            "total_percentage_raw": 5.998873651027679,
-            "total_percentage_skip": 5.998131692409515,
-            "total_percentage_profit_only": 0.22439122200012207
-        },
-        {
-            "file": "/home/joren/Coding/cryptodata/Normalized_labelled5MIN/AAVEUSDT.bin",
-            "model": "models/model_medium_5",
-            "skipcounter": 1,
-            "total_percentage_raw": 3.9820935130119324,
-            "total_percentage_skip": 3.9866711497306824,
-            "total_percentage_profit_only": 0.3306359648704529
-        },
-        {
-            "file": "/home/joren/Coding/cryptodata/Normalized_labelled/AAVEUSDT.bin",
-            "model": "models/model_small_5",
-            "skipcounter": 1,
-            "total_percentage_raw": 5.6447558999061584,
-            "total_percentage_skip": 5.643686354160309,
-            "total_percentage_profit_only": 0.30944693088531494
-        },
-        {
-            "file": "/home/joren/Coding/cryptodata/Normalized_labelled/AAVEUSDT.bin",
             "model": "models/model_small_10",
-            "skipcounter": 1,
-            "total_percentage_raw": 6.371866941452026,
-            "total_percentage_skip": 6.370765447616577,
-            "total_percentage_profit_only": 0.314031183719635
-        },
-        {
-            "file": "/home/joren/Coding/cryptodata/Normalized_labelled5MIN/AAVEUSDT.bin",
-            "model": "models/model_small_10",
-            "skipcounter": 1,
-            "total_percentage_raw": 3.660946786403656,
-            "total_percentage_skip": 3.6645564436912537,
-            "total_percentage_profit_only": 0.45865923166275024
+            "total_percentage_raw": 6.371866941452026
         },
         {
             "file": "/home/joren/Coding/cryptodata/Normalized_labelled/AAVEUSDT.bin",
             "model": "models/model_small_3",
-            "skipcounter": 1,
-            "total_percentage_raw": 6.744158744812012,
-            "total_percentage_skip": 6.743089199066162,
-            "total_percentage_profit_only": 0.36451828479766846
+            "total_percentage_raw": 6.744158744812012
+        },
+        {
+            "file": "/home/joren/Coding/cryptodata/Normalized_labelled/ADAUSDT.bin",
+            "model": "models/model_small_10",
+            "total_percentage_raw": 11.521986365318298
+        },
+        {
+            "file": "/home/joren/Coding/cryptodata/Normalized_labelled/ADAUSDT.bin",
+            "model": "models/model_small_3",
+            "total_percentage_raw": 8.431998372077942
+        },
+        {
+            "file": "/home/joren/Coding/cryptodata/Normalized_labelled/NEOUSDT.bin",
+            "model": "models/model_small_10",
+            "total_percentage_raw": 12.313026428222656
+        },
+        {
+            "file": "/home/joren/Coding/cryptodata/Normalized_labelled/NEOUSDT.bin",
+            "model": "models/model_small_3",
+            "total_percentage_raw": 12.934576988220215
+        },
+        {
+            "file": "/home/joren/Coding/cryptodata/Normalized_labelled/LTCUSDT.bin",
+            "model": "models/model_small_10",
+            "total_percentage_raw": 12.541388869285583
+        },
+        {
+            "file": "/home/joren/Coding/cryptodata/Normalized_labelled/LTCUSDT.bin",
+            "model": "models/model_small_3",
+            "total_percentage_raw": 10.91496056318283
+        },
+        {
+            "file": "/home/joren/Coding/cryptodata/Normalized_labelled/BTCUSDT.bin",
+            "model": "models/model_small_10",
+            "total_percentage_raw": 9.723632752895355
+        },
+        {
+            "file": "/home/joren/Coding/cryptodata/Normalized_labelled/BTCUSDT.bin",
+            "model": "models/model_small_3",
+            "total_percentage_raw": 7.2945995926856995
+        },
+        {
+            "file": "/home/joren/Coding/cryptodata/Normalized_labelled/FTTUSDT.bin",
+            "model": "models/model_small_10",
+            "total_percentage_raw": 2.629611849784851
         }
     ]
 }
