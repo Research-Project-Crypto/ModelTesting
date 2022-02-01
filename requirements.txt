@@ -1,1 +1,7 @@
 jupyterlab
+tensorflow
+numpy
+pandas
+matplotlib
+scikit-learn
+keras
