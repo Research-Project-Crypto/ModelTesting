@@ -1,0 +1,7 @@
+{
+    "model": "./models/model_small_10",
+    "files_processed": 281,
+    "average_percentage": 1.253646974673899,
+    "negative_results": 2,
+    "average_length_in_hours": 219.9418149466192
+}

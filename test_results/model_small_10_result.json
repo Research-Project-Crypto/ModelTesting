@@ -1,0 +1,16 @@
+{
+    "model": "./models/model_small_10",
+    "files_processed": 2,
+    "average_percentage": 1.3292036056518555,
+    "average_length_in_hours": 239.59166666666667
+}{
+    "model": "./models/model_small_10",
+    "files_processed": 3,
+    "average_percentage": 1.4488673607508342,
+    "average_length_in_hours": 219.25
+}{
+    "model": "./models/model_small_10",
+    "files_processed": 4,
+    "average_percentage": 1.7143176198005676,
+    "average_length_in_hours": 271.1333333333333
+}
