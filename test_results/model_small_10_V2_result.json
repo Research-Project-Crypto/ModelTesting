@@ -1,0 +1,76 @@
+{
+    "results": [
+        {
+            "percentage": 12.713375057268607,
+            "negative": false,
+            "length_in_hours": 3828.0,
+            "trades": 49606
+        },
+        {
+            "percentage": 26.047902693945097,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 54050
+        },
+        {
+            "percentage": 18.81284869918629,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 54283
+        },
+        {
+            "percentage": 11.71380596521727,
+            "negative": false,
+            "length_in_hours": 1929.45,
+            "trades": 27826
+        },
+        {
+            "percentage": 9.726554894175681,
+            "negative": false,
+            "length_in_hours": 3828.0,
+            "trades": 60550
+        },
+        {
+            "percentage": -1.909922085917249,
+            "negative": true,
+            "length_in_hours": 3828.0,
+            "trades": 61334
+        },
+        {
+            "percentage": 8.066688954877344,
+            "negative": false,
+            "length_in_hours": 3828.0,
+            "trades": 74371
+        },
+        {
+            "percentage": 28.59797974160255,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 55916
+        },
+        {
+            "percentage": 19.024074348187476,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 58958
+        },
+        {
+            "percentage": 10.988749758319843,
+            "negative": false,
+            "length_in_hours": 3828.0,
+            "trades": 52714
+        },
+        {
+            "percentage": 8.447510822950022,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 53172
+        },
+        {
+            "percentage": 7.987618603947884,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 53469
+        }
+    ]
+}

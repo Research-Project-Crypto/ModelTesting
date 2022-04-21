@@ -1,16 +1,1276 @@
 {
-    "model": "./models/model_small_10",
-    "files_processed": 2,
-    "average_percentage": 1.3292036056518555,
-    "average_length_in_hours": 239.59166666666667
-}{
-    "model": "./models/model_small_10",
-    "files_processed": 3,
-    "average_percentage": 1.4488673607508342,
-    "average_length_in_hours": 219.25
-}{
-    "model": "./models/model_small_10",
-    "files_processed": 4,
-    "average_percentage": 1.7143176198005676,
-    "average_length_in_hours": 271.1333333333333
+    "results": [
+        {
+            "percentage": 16.009577810764313,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 42935
+        },
+        {
+            "percentage": 25.949417650699615,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 76500
+        },
+        {
+            "percentage": 21.15595704317093,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 73020
+        },
+        {
+            "percentage": 13.430942058563232,
+            "negative": false,
+            "length_in_hours": 2620.4166666666665,
+            "trades": 51718
+        },
+        {
+            "percentage": 20.952691614627838,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 65613
+        },
+        {
+            "percentage": 16.655104339122772,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 60836
+        },
+        {
+            "percentage": 19.38574230670929,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 47643
+        },
+        {
+            "percentage": 20.165398359298706,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 24310
+        },
+        {
+            "percentage": 12.571028053760529,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 18692
+        },
+        {
+            "percentage": 40.18341284990311,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 53499
+        },
+        {
+            "percentage": 44.35430896282196,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 22682
+        },
+        {
+            "percentage": 28.900234401226044,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 22019
+        },
+        {
+            "percentage": 12.736554026603699,
+            "negative": false,
+            "length_in_hours": 2033.5333333333333,
+            "trades": 13808
+        },
+        {
+            "percentage": 8.005648791790009,
+            "negative": false,
+            "length_in_hours": 3083.883333333333,
+            "trades": 18014
+        },
+        {
+            "percentage": 9.971873939037323,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 39520
+        },
+        {
+            "percentage": 11.785748541355133,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 60615
+        },
+        {
+            "percentage": 13.30122447013855,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 38824
+        },
+        {
+            "percentage": 8.663609564304352,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 18790
+        },
+        {
+            "percentage": 17.458787500858307,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 39793
+        },
+        {
+            "percentage": 27.360317587852478,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 69723
+        },
+        {
+            "percentage": 17.36674177646637,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 60860
+        },
+        {
+            "percentage": 5.707311511039734,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 22971
+        },
+        {
+            "percentage": 9.063130855560303,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 30890
+        },
+        {
+            "percentage": 9.96918898820877,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 49265
+        },
+        {
+            "percentage": 10.420633375644684,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 25610
+        },
+        {
+            "percentage": 7.743690729141235,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 25309
+        },
+        {
+            "percentage": 19.59474241733551,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 38240
+        },
+        {
+            "percentage": 29.089159190654755,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 63928
+        },
+        {
+            "percentage": 21.047265768051147,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 57160
+        },
+        {
+            "percentage": 16.110082149505615,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 63490
+        },
+        {
+            "percentage": 19.49735975265503,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 66607
+        },
+        {
+            "percentage": 16.177299976348877,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 49859
+        },
+        {
+            "percentage": 18.783643543720245,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 37123
+        },
+        {
+            "percentage": 17.8787938952446,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 23430
+        },
+        {
+            "percentage": 7.3050859570503235,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 13291
+        },
+        {
+            "percentage": 39.27074092626572,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 24496
+        },
+        {
+            "percentage": 34.411545276641846,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 25117
+        },
+        {
+            "percentage": 25.749660313129425,
+            "negative": false,
+            "length_in_hours": 3046.65,
+            "trades": 48562
+        },
+        {
+            "percentage": 22.299250721931458,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 43843
+        },
+        {
+            "percentage": 32.82240307331085,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 47120
+        },
+        {
+            "percentage": 37.28513979911804,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 28313
+        },
+        {
+            "percentage": 27.914342761039734,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 45825
+        },
+        {
+            "percentage": 12.534996926784515,
+            "negative": false,
+            "length_in_hours": 1897.3166666666666,
+            "trades": 19791
+        },
+        {
+            "percentage": 15.659865021705627,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 23887
+        },
+        {
+            "percentage": 50.78688323497772,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 25823
+        },
+        {
+            "percentage": 44.517985343933105,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 26450
+        },
+        {
+            "percentage": 19.00962483882904,
+            "negative": false,
+            "length_in_hours": 2111.35,
+            "trades": 20012
+        },
+        {
+            "percentage": 12.53369528055191,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 28452
+        },
+        {
+            "percentage": 18.82583999633789,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 35016
+        },
+        {
+            "percentage": 17.108093321323395,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 32465
+        },
+        {
+            "percentage": 20.23653131723404,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 38349
+        },
+        {
+            "percentage": 12.823811769485474,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 26327
+        },
+        {
+            "percentage": 14.177541494369507,
+            "negative": false,
+            "length_in_hours": 2551.95,
+            "trades": 18451
+        },
+        {
+            "percentage": 22.949190497398376,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 25664
+        },
+        {
+            "percentage": 11.935356606344405,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 56348
+        },
+        {
+            "percentage": 11.779472811638705,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 38795
+        },
+        {
+            "percentage": 8.217304087022747,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 24134
+        },
+        {
+            "percentage": 10.534917087299458,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 22275
+        },
+        {
+            "percentage": 12.834269868094598,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 18441
+        },
+        {
+            "percentage": 6.606414923281606,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 13844
+        },
+        {
+            "percentage": 4.594952292548592,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 21296
+        },
+        {
+            "percentage": 2.9437549266390697,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 52361
+        },
+        {
+            "percentage": 0.8313816620441636,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 10567
+        },
+        {
+            "percentage": 0.4948477033754523,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 10919
+        },
+        {
+            "percentage": 0.28450546422312734,
+            "negative": false,
+            "length_in_hours": 2396.7,
+            "trades": 10660
+        },
+        {
+            "percentage": 12.385733815480584,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 46961
+        },
+        {
+            "percentage": 14.35743878856145,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 48851
+        },
+        {
+            "percentage": 11.295792235439203,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 46389
+        },
+        {
+            "percentage": 16.113778440961855,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 32311
+        },
+        {
+            "percentage": 19.219021106495564,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 23295
+        },
+        {
+            "percentage": 11.296125624829275,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 15397
+        },
+        {
+            "percentage": 15.348150423652694,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 25532
+        },
+        {
+            "percentage": 8.433086546475957,
+            "negative": false,
+            "length_in_hours": 2364.2833333333333,
+            "trades": 17865
+        },
+        {
+            "percentage": 22.18929959724447,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 57787
+        },
+        {
+            "percentage": 17.531763266842404,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 22386
+        },
+        {
+            "percentage": 22.529996740266274,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 21144
+        },
+        {
+            "percentage": 12.160711864156042,
+            "negative": false,
+            "length_in_hours": 2945.3333333333335,
+            "trades": 20462
+        },
+        {
+            "percentage": 26.120705834018942,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 27640
+        },
+        {
+            "percentage": 20.57732647207491,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 30995
+        },
+        {
+            "percentage": 11.617291481879036,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 55290
+        },
+        {
+            "percentage": 18.087494005415635,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 25007
+        },
+        {
+            "percentage": 22.479064185522912,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 26062
+        },
+        {
+            "percentage": 15.150916292687675,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 23729
+        },
+        {
+            "percentage": 22.45791206036083,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 25739
+        },
+        {
+            "percentage": 26.82525307539199,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 46039
+        },
+        {
+            "percentage": 17.505075875137358,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 59633
+        },
+        {
+            "percentage": 28.124973405843093,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 21357
+        },
+        {
+            "percentage": 27.844184884202992,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 19303
+        },
+        {
+            "percentage": 32.954247979714104,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 21428
+        },
+        {
+            "percentage": 28.734263581704774,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 35962
+        },
+        {
+            "percentage": 14.06363692557592,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 28487
+        },
+        {
+            "percentage": 24.856200204976282,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 41644
+        },
+        {
+            "percentage": 25.248404685442566,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 51352
+        },
+        {
+            "percentage": 13.916528945245114,
+            "negative": false,
+            "length_in_hours": 2251.65,
+            "trades": 29932
+        },
+        {
+            "percentage": 17.027072402397145,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 46012
+        },
+        {
+            "percentage": 14.54737170964961,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 48596
+        },
+        {
+            "percentage": 13.059096192881729,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 25375
+        },
+        {
+            "percentage": 16.20738073127696,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 25777
+        },
+        {
+            "percentage": 18.764803757969478,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 33969
+        },
+        {
+            "percentage": 18.358000488882862,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 47910
+        },
+        {
+            "percentage": 20.83308199148539,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 24664
+        },
+        {
+            "percentage": 13.129866628920105,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 22316
+        },
+        {
+            "percentage": 11.145838679882408,
+            "negative": false,
+            "length_in_hours": 2802.05,
+            "trades": 22040
+        },
+        {
+            "percentage": 38.95261826224366,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 24305
+        },
+        {
+            "percentage": 38.42956655477724,
+            "negative": false,
+            "length_in_hours": 2188.3166666666666,
+            "trades": 20019
+        },
+        {
+            "percentage": 17.127491762929093,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 35706
+        },
+        {
+            "percentage": 30.748733960304587,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 62955
+        },
+        {
+            "percentage": 20.54244581974805,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 58413
+        },
+        {
+            "percentage": 12.244173391812629,
+            "negative": false,
+            "length_in_hours": 1819.5333333333333,
+            "trades": 38934
+        },
+        {
+            "percentage": 23.466250501655086,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 38844
+        },
+        {
+            "percentage": 18.697336187919163,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 39596
+        },
+        {
+            "percentage": 15.167705960992281,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 61604
+        },
+        {
+            "percentage": 16.257277796037553,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 36099
+        },
+        {
+            "percentage": 22.622538544671947,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 25071
+        },
+        {
+            "percentage": 10.359204144705803,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 17548
+        },
+        {
+            "percentage": 29.716460793660968,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 42610
+        },
+        {
+            "percentage": 27.432231586517247,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 60249
+        },
+        {
+            "percentage": 17.589553978559305,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 49378
+        },
+        {
+            "percentage": 13.210454227771782,
+            "negative": false,
+            "length_in_hours": 2293.15,
+            "trades": 37187
+        },
+        {
+            "percentage": 17.848277593206387,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 20747
+        },
+        {
+            "percentage": 31.249550648070127,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 64298
+        },
+        {
+            "percentage": 32.67570039544554,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 24371
+        },
+        {
+            "percentage": 31.086866145403427,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 20836
+        },
+        {
+            "percentage": 20.922620144894225,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 30014
+        },
+        {
+            "percentage": 20.708492618923266,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 42435
+        },
+        {
+            "percentage": 17.764887954398784,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 40918
+        },
+        {
+            "percentage": 8.32951897406865,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 24129
+        },
+        {
+            "percentage": 10.597728555206745,
+            "negative": false,
+            "length_in_hours": 2760.4333333333334,
+            "trades": 24464
+        },
+        {
+            "percentage": 15.589599987052283,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 48471
+        },
+        {
+            "percentage": 10.814377429997357,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 41096
+        },
+        {
+            "percentage": 14.860865290127203,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 57253
+        },
+        {
+            "percentage": 8.966145596600274,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 61272
+        },
+        {
+            "percentage": 8.884954555071735,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 36681
+        },
+        {
+            "percentage": 28.206754532737882,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 67325
+        },
+        {
+            "percentage": 18.7051503298337,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 62793
+        },
+        {
+            "percentage": 8.963563135284266,
+            "negative": false,
+            "length_in_hours": 2024.5166666666667,
+            "trades": 8509
+        },
+        {
+            "percentage": 19.021090618801935,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 28383
+        },
+        {
+            "percentage": 16.83411686086618,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 25654
+        },
+        {
+            "percentage": 9.604640552299594,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 39223
+        },
+        {
+            "percentage": 10.008979254971376,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 35646
+        },
+        {
+            "percentage": 9.156148694715915,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 31848
+        },
+        {
+            "percentage": 8.262033763308985,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 25046
+        },
+        {
+            "percentage": 11.349131420328588,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 34785
+        },
+        {
+            "percentage": 6.736427271675909,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 35083
+        },
+        {
+            "percentage": 12.549554994880339,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 47262
+        },
+        {
+            "percentage": 22.384181577029626,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 75338
+        },
+        {
+            "percentage": 15.552163322305715,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 64675
+        },
+        {
+            "percentage": 10.73596993027001,
+            "negative": false,
+            "length_in_hours": 2715.133333333333,
+            "trades": 42511
+        },
+        {
+            "percentage": 25.09303690199784,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 46533
+        },
+        {
+            "percentage": 22.487499099605976,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 54751
+        },
+        {
+            "percentage": 14.028795202137378,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 48204
+        },
+        {
+            "percentage": 16.69076787855087,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 67042
+        },
+        {
+            "percentage": 18.866386664403688,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 69424
+        },
+        {
+            "percentage": 14.198709515261614,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 67320
+        },
+        {
+            "percentage": 20.180992712211314,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 61805
+        },
+        {
+            "percentage": 27.6592300652874,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 29481
+        },
+        {
+            "percentage": 15.89323459399247,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 23034
+        },
+        {
+            "percentage": 13.685127365110034,
+            "negative": false,
+            "length_in_hours": 2539.9333333333334,
+            "trades": 17189
+        },
+        {
+            "percentage": 8.408162201595308,
+            "negative": false,
+            "length_in_hours": 1928.4833333333333,
+            "trades": 12323
+        },
+        {
+            "percentage": 15.27940566421577,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 46383
+        },
+        {
+            "percentage": 8.841931145629117,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 40813
+        },
+        {
+            "percentage": 18.7642304546686,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 38101
+        },
+        {
+            "percentage": 14.903328313252732,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 21532
+        },
+        {
+            "percentage": 9.303969638251369,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 21370
+        },
+        {
+            "percentage": 15.831974765376094,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 69019
+        },
+        {
+            "percentage": 12.08677103121417,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 54701
+        },
+        {
+            "percentage": 17.315490417824652,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 41827
+        },
+        {
+            "percentage": 17.62277167506846,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 29240
+        },
+        {
+            "percentage": 9.406781532076,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 22123
+        },
+        {
+            "percentage": 9.115729224449995,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 22810
+        },
+        {
+            "percentage": 13.69455742181951,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 40637
+        },
+        {
+            "percentage": 15.66720793698483,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 21452
+        },
+        {
+            "percentage": 9.63871833202755,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 20559
+        },
+        {
+            "percentage": 10.012453137728201,
+            "negative": false,
+            "length_in_hours": 2128.05,
+            "trades": 14843
+        },
+        {
+            "percentage": 10.251796186470555,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 63254
+        },
+        {
+            "percentage": 5.401443903256204,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 44690
+        },
+        {
+            "percentage": 15.268932100461152,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 48966
+        },
+        {
+            "percentage": 955.5643747784607,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 26078
+        },
+        {
+            "percentage": 13.508887340999545,
+            "negative": false,
+            "length_in_hours": 3333.3333333333335,
+            "trades": 34290
+        },
+        {
+            "percentage": 6.325920356072511,
+            "negative": false,
+            "length_in_hours": 1737.7,
+            "trades": 22738
+        },
+        {
+            "percentage": 63.34046792343922,
+            "negative": false,
+            "length_in_hours": 3328.0,
+            "trades": 39274
+        },
+        {
+            "percentage": 13.967443936717402,
+            "negative": false,
+            "length_in_hours": 3828.0,
+            "trades": 57489
+        },
+        {
+            "percentage": 15.050864750974837,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 46244
+        },
+        {
+            "percentage": 19.32919945291511,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 24551
+        },
+        {
+            "percentage": 14.86768111174859,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 19254
+        },
+        {
+            "percentage": 17.178324724317434,
+            "negative": false,
+            "length_in_hours": 3586.133333333333,
+            "trades": 31934
+        },
+        {
+            "percentage": 28.385239220510467,
+            "negative": false,
+            "length_in_hours": 3268.1,
+            "trades": 65198
+        },
+        {
+            "percentage": 23.02867288327158,
+            "negative": false,
+            "length_in_hours": 3828.0,
+            "trades": 75724
+        },
+        {
+            "percentage": 20.503094587515452,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 70534
+        },
+        {
+            "percentage": 24.95460148638506,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 39511
+        },
+        {
+            "percentage": 14.587777668263056,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 23581
+        },
+        {
+            "percentage": 10.606693844336244,
+            "negative": false,
+            "length_in_hours": 2346.766666666667,
+            "trades": 15338
+        },
+        {
+            "percentage": 16.710769213222854,
+            "negative": false,
+            "length_in_hours": 3828.0,
+            "trades": 51561
+        },
+        {
+            "percentage": 11.93895005639761,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 49330
+        },
+        {
+            "percentage": 23.766060703356743,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 35675
+        },
+        {
+            "percentage": 11.113679744483118,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 21065
+        },
+        {
+            "percentage": 32.15182197571057,
+            "negative": false,
+            "length_in_hours": 3828.0,
+            "trades": 38950
+        },
+        {
+            "percentage": 14.175360377678047,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 23890
+        },
+        {
+            "percentage": 11.683250675370948,
+            "negative": false,
+            "length_in_hours": 3828.0,
+            "trades": 32609
+        },
+        {
+            "percentage": 20.888776484502507,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 40076
+        },
+        {
+            "percentage": 17.183641155198274,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 33566
+        },
+        {
+            "percentage": 7.499815608271317,
+            "negative": false,
+            "length_in_hours": 2759.483333333333,
+            "trades": 20565
+        },
+        {
+            "percentage": 8.578836020984054,
+            "negative": false,
+            "length_in_hours": 3828.0,
+            "trades": 25879
+        },
+        {
+            "percentage": 9.31764890256826,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 50713
+        },
+        {
+            "percentage": 10.483316951174666,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 45327
+        },
+        {
+            "percentage": 7.8235069524495815,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 37908
+        },
+        {
+            "percentage": 30.580455657612642,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 49662
+        },
+        {
+            "percentage": 23.923103843782275,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 58643
+        },
+        {
+            "percentage": 13.932757683480338,
+            "negative": false,
+            "length_in_hours": 2737.5666666666666,
+            "trades": 41303
+        },
+        {
+            "percentage": 30.392426297117986,
+            "negative": false,
+            "length_in_hours": 3828.0,
+            "trades": 34616
+        },
+        {
+            "percentage": 23.202886930785276,
+            "negative": false,
+            "length_in_hours": 3833.3333333333335,
+            "trades": 21169
+        },
+        {
+            "percentage": 17.571498805606396,
+            "negative": false,
+            "length_in_hours": 3078.6666666666665,
+            "trades": 23611
+        }
+    ]
 }

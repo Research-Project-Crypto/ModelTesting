@@ -1,0 +1,49 @@
+{
+    "results": [
+        {
+            "file": "UTKUSDT.csv",
+            "buy & hold": 121.28,
+            "piramidding_start_balance": 100,
+            "piramidding": 1326.94,
+            "piramidding%": "1226.94%",
+            "piramidding_inzet": 10,
+            "piramidding_volume": "855.11K",
+            "normal_start_balance": 100,
+            "normal": 519.42,
+            "normal%": "419.42%",
+            "normal_inzet": 10,
+            "normal_volume": "103.51K",
+            "period_days": 416.44
+        },
+        {
+            "file": "AAVEUSDT.csv",
+            "buy & hold": 267.5,
+            "piramidding_start_balance": 100,
+            "piramidding": 1521.64,
+            "piramidding%": "1421.64%",
+            "piramidding_inzet": 10,
+            "piramidding_volume": "1580.17K",
+            "normal_start_balance": 100,
+            "normal": 607.7,
+            "normal%": "507.7%",
+            "normal_inzet": 10,
+            "normal_volume": "179.02K",
+            "period_days": 416.44
+        },
+        {
+            "file": "UTKUSDT.csv",
+            "buy & hold": 121.28,
+            "piramidding_start_balance": 20,
+            "piramidding": 141.34,
+            "piramidding%": "606.69%",
+            "piramidding_inzet": 1,
+            "piramidding_volume": "86.2K",
+            "normal_start_balance": 20,
+            "normal": 57.23,
+            "normal%": "186.17%",
+            "normal_inzet": 1,
+            "normal_volume": "10.35K",
+            "period_days": 416.44
+        }
+    ]
+}
